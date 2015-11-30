@@ -1,0 +1,8 @@
+{
+  "name": "babel-plugin-h-children-fix",
+  "version": "0.0.0",
+  "description": "Allows use of standard babel JSX tools with virtual-dom/h",
+  "main": "index.js",
+  "author": "Henrik Joreteg <henrik@joreteg.com>",
+  "license": "MIT"
+}
