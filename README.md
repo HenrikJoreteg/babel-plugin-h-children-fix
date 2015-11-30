@@ -20,7 +20,13 @@ That's it!
 
 ## example
 
-If your `.babelrc` file looks like this:
+npm install both of them:
+
+```
+npm install babel-plugin-transform-react-jsx babel-plugin-h-children-fix
+```
+
+Now if your `.babelrc` file looks like this:
 
 
 ```json
@@ -33,7 +39,7 @@ If your `.babelrc` file looks like this:
 }
 ```
 
-The `babel-plugin-transform-react-jsx` turns this:
+The `babel-plugin-transform-react-jsx` firt turns this:
 
 ```js
 export default () => (
