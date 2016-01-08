@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-h-children-fix",
   "description": "Allows use of standard babel JSX tools with virtual-dom/h",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Henrik Joreteg <henrik@joreteg.com>",
   "bugs": "https://github.com/henrikjoreteg/babel-plugin-h-children-fix/issues",
   "devDependencies": {
