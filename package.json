@@ -1,8 +1,39 @@
 {
   "name": "babel-plugin-h-children-fix",
-  "version": "1.0.1",
   "description": "Allows use of standard babel JSX tools with virtual-dom/h",
-  "main": "index.js",
+  "version": "1.0.1",
   "author": "Henrik Joreteg <henrik@joreteg.com>",
-  "license": "MIT"
+  "bugs": "https://github.com/henrikjoreteg/babel-plugin-h-children-fix/issues",
+  "devDependencies": {
+    "assert-transform": "git@github.com:walmartreact/assert-transform.git#869b2d4d1bb2d15288f8591024367b41c247d304",
+    "babel": "^6.3.26",
+    "babel-plugin-h-children-fix": "^1.0.1",
+    "babel-plugin-transform-react-jsx": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "tape": "^4.4.0"
+  },
+  "homepage": "https://github.com/henrikjoreteg/babel-plugin-h-children-fix",
+  "keywords": [
+    "babel",
+    "hyperscript",
+    "plugin",
+    "virtual-dom"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "henrikjoreteg/babel-plugin-h-children-fix"
+  },
+  "scripts": {
+    "test": "node test/index.js && standard"
+  },
+  "standard": {
+    "globals": [
+      "React"
+    ],
+    "ignore": [
+      "/test/target.js"
+    ]
+  }
 }

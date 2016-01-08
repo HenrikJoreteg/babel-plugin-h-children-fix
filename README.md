@@ -18,6 +18,10 @@ Note that this is not exensively tested and it's a *naive* and *simple* replacem
 
 That's it!
 
+## just kidding! One, tiny little thing...
+
+It's kind of odd to have to `import h from 'virtual-dom/h'` at the top of a file containing JSX, especially if you then *never actually use it within your file*. So, as of version `1.1.0+` this plugin will also automatically insert that import statement for you if the file contains JSX and doesn't have `h` defined at the module level.
+
 ## example
 
 npm install both of them:
@@ -78,6 +82,12 @@ npm install babel-plugin-h-children-fix
 ## credits
 
 If you like this follow [@HenrikJoreteg](http://twitter.com/henrikjoreteg) on twitter.
+
+## changelog
+
+- `1.1.0` auto import `h` if not defined, added basic test, now uses standard style and enforcement thereof.
+- `1.0.1` doc update
+- `1.0.0` initial release
 
 ## license
 
